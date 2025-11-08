@@ -53,3 +53,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# GitHub Pages settings
+
+url: https://edwardjw7.github.io  # protocol + domain name, no trailing slash
+baseurl: /edwardjw7-github.io #  the subpath GitHub uses, because it matches your repo name
+
+
+# command to print tree struct in terminal, without showing files (only folders)
+# tree -d -I '.git|node_modules|vendor|.sass-cache|.jekyll-cache|gemfiles'
